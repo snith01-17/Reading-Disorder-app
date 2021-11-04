@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { Header } from 'react-native-elements';
 import db from './localdb';
-import PhonicSoundButton from './components/PhonicSoundButton';
+import PhonicSoundButton from './PhonicSoundButton';
 
 export default class App extends React.Component {
   constructor() {
@@ -33,7 +33,7 @@ export default class App extends React.Component {
         />
 
        <Image
-          source={require("./assets/logo.png")}
+          source={require("./logo.png")}
           style={{width:350, height:350, marginLeft:0, alignItems:"CENTER"}}
         />
 
